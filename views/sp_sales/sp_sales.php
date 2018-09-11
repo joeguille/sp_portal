@@ -86,7 +86,7 @@ p{
 <div class="col-lg-8 col-md-8 form-group" align="center" style="background-color:white">
 <div align="left">
 	<br>
-	<p style="font-size:20px; color:black; display: inline-block;">R E A L I Z A R &nbsp;&nbsp; V E N T A</p>
+	<p style="font-size:20px; color:blue; display: inline-block;">R E A L I Z A R &nbsp;&nbsp; V E N T A</p>
     <br>
 </div>
 <form action="sale_form.php" method="post">
