@@ -97,7 +97,75 @@ p{
     <div class="input-group" style="width:100%">
     	<input type="text" name="client_nickname" placeholder="AUTOMÓVIL / CLIENTE" class="form-control"/>
     </div>
-                           
+    <br>
+    <div class="input-group" style="width:100%">
+                    <h5 align="left">P R O D U C T O S</h5>
+                    <select class="form-control" name="product" id="product" onchange="load(this.value)">
+                     	<option value="0" class="form-control">FAMILIA / CATEGORIA</option>  
+        <?php   
+$sql = 'SELECT * FROM `sp_pcategory`';
+$res=mysqli_query($miConexion,$sql);
+while($row=mysqli_fetch_array($res)){
+	echo "<option value='".$row['0']."'> ".utf8_encode($row['1'])."</option>";
+}
+	    ?>  
+					</select>
+		</div>
+
+<script>
+
+function load(str)
+{
+var xmlhttp;
+
+if (window.XMLHttpRequest)
+{// code for IE7+, Firefox, Chrome, Opera, Safari
+xmlhttp=new XMLHttpRequest();
+}
+else
+{// code for IE6, IE5
+xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+}
+xmlhttp.onreadystatechange=function()
+{
+if (xmlhttp.readyState==4 && xmlhttp.status==200)
+{
+document.getElementById("divDesc").innerHTML=xmlhttp.responseText;
+}
+}
+xmlhttp.open("POST","fetch_product.php",true);
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+xmlhttp.send("q="+str);
+}
+
+
+            function loadTiempo(str,id_empresa2)
+            {
+                var xmlhttp;
+
+                if (window.XMLHttpRequest)
+                {// code for IE7+, Firefox, Chrome, Opera, Safari
+                    xmlhttp=new XMLHttpRequest();
+                }
+                else
+                {// code for IE6, IE5
+                    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                xmlhttp.onreadystatechange=function()
+                {
+                    if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                    {
+                        document.getElementById("divTime").innerHTML=xmlhttp.responseText;
+                    }
+                }
+                xmlhttp.open("POST","fetch_time.php",true);
+                xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+                xmlhttp.send("q="+str+"&&id_estetica="+id_empresa2);
+            }
+        </script>
+
+        <div class="form-group" id="divDesc"></div>
+        <br><br>                       
     <br><br>
     <input type="hidden" name="login" value="<?php $L ?>">
 	<input type="submit" class="btn-login" value="A Ñ A D I R">
