@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="validaradministrador.php" server="C:/xampp/htdocs/asesoria/" local="131472349745854246" remote="131472349740000000" Dst="2" />
+<file name="validarasesor.php" server="C:/xampp/htdocs/asesoria/" local="131467806453189703" remote="131467806450000000" Dst="2" />
+<file name="validarasesorado.php" server="C:/xampp/htdocs/asesoria/" local="131461887143676566" remote="131461887140000000" Dst="2" />
+<file name="index.php" server="C:/xampp/htdocs/asesoria/" local="131463475634990416" remote="131463475630000000" Dst="2" />
+<file name="asesorado.php" server="C:/xampp/htdocs/asesoria/" local="131464635189812601" remote="131464635180000000" Dst="2" />
+<file name="asesor.php" server="C:/xampp/htdocs/asesoria/" local="131467834049886336" remote="131467834040000000" Dst="2" />
+<file name="salir.php" server="C:/xampp/htdocs/asesoria/" local="131419565184024378" remote="131419565180000000" Dst="2" />
+<file name="insert_asesoria.php" server="C:/xampp/htdocs/asesoria/" local="131467828288861510" remote="131467828280000000" Dst="2" />
+<file name="cargar_asignatura.php" server="C:/xampp/htdocs/asesoria/" local="131467824568297166" remote="131467824560000000" Dst="2" />
+<file name="cargar_asesoria.php" server="C:/xampp/htdocs/asesoria/" local="131464635524613205" remote="131464635520000000" Dst="2" />
+<file name="reservar.php" server="C:/xampp/htdocs/asesoria/" local="131464633767812330" remote="131464633760000000" Dst="2" />
+<file name="asesoradon.php" server="C:/xampp/htdocs/asesoria/" local="131470426336831131" remote="131470426330000000" Dst="2" />
+<file name="cargar_fecha.php" server="C:/xampp/htdocs/asesoria/" local="131470425442223975" remote="131470425440000000" Dst="2" />
+<file name="administrador.php" server="C:/xampp/htdocs/asesoria/" local="131472409155849952" remote="131472409150000000" Dst="2" />
+<file name="cargar_fecha2.php" server="C:/xampp/htdocs/asesoria/" local="131470735568286188" remote="131470735560000000" Dst="2" />
+<file name="cargar_fecha1.php" server="C:/xampp/htdocs/asesoria/" local="131470451602458557" remote="131470451600000000" Dst="2" />
+<file name="insert_asesor.php" server="C:/xampp/htdocs/asesoria/" local="131472379298508239" remote="131472379290000000" Dst="2" />
+<file name="insert_asesorado.php" server="C:/xampp/htdocs/asesoria/" local="131472380124061607" remote="131472380120000000" Dst="2" />
+<file name="validaradministrador.php" server="C:/xampp/htdocs/portaldelalumno/" local="131472349745854246" remote="131472349740000000" Dst="2" />
+<file name="validarasesor.php" server="C:/xampp/htdocs/portaldelalumno/" local="131467806453189703" remote="131467806450000000" Dst="2" />
+<file name="validarasesorado.php" server="C:/xampp/htdocs/portaldelalumno/" local="131461887143676566" remote="131461887140000000" Dst="2" />
+<file name="index.php" server="C:/xampp/htdocs/portaldelalumno/" local="131475804879587884" remote="131475804870000000" Dst="2" />
+<file name="insert_asesoria.php" server="C:/xampp/htdocs/portaldelalumno/" local="131467828288861510" remote="131467828280000000" Dst="2" />
+<file name="asesor.php" server="C:/xampp/htdocs/portaldelalumno/" local="131467834049886336" remote="131467834040000000" Dst="2" />
+<file name="login_stud.php" server="C:/xampp/htdocs/portaldelalumno/" local="131494908322989189" remote="131494908320000000" Dst="2" />
+<file name="reservar.php" server="C:/xampp/htdocs/portaldelalumno/" local="131464633767812330" remote="131464633760000000" Dst="2" />
+<file name="asesorado.php" server="C:/xampp/htdocs/portaldelalumno/" local="131464635189812601" remote="131464635180000000" Dst="2" />
+<file name="salir.php" server="C:/xampp/htdocs/portaldelalumno/" local="131419565184024378" remote="131419565180000000" Dst="2" />
+<file name="login_teach.php" server="C:/xampp/htdocs/portaldelalumno/" local="131493806972504659" remote="131493806970000000" Dst="2" />
+<file name="profesor.php" server="C:/xampp/htdocs/portaldelalumno/" local="131493811923894968" remote="131493811920000000" Dst="2" />
+<file name="asesores.php" server="C:/xampp/htdocs/portaldelalumno/" local="131473199567889375" remote="131473199560000000" Dst="2" />
+<file name="alumno.php" server="C:/xampp/htdocs/portaldelalumno/" local="131495578285685868" remote="131495578280000000" Dst="2" />
+<file name="score.php" server="C:/xampp/htdocs/portaldelalumno/" local="131495622408750731" remote="131495622400000000" Dst="2" />
+<file name="insert_asesorado.php" server="C:/xampp/htdocs/portaldelalumno/" local="131472380124061607" remote="131472380120000000" Dst="2" />
+<file name="insertarCliente.php" server="C:/xampp/htdocs/portaldelalumno/" local="131128617307727811" remote="131128617300000000" Dst="2" />
+<file name="eliminarCliente.php" server="C:/xampp/htdocs/portaldelalumno/" local="131128298280000000" remote="131128298280000000" Dst="2" />
+<file name="modificarCliente.php" server="C:/xampp/htdocs/portaldelalumno/" local="131128939861168566" remote="131128939860000000" Dst="2" />
+<file name="insert_asesor.php" server="C:/xampp/htdocs/portaldelalumno/" local="131472379298508239" remote="131472379290000000" Dst="2" />
+<file name="upd_calif.php" server="C:/xampp/htdocs/portaldelalumno/" local="131493807040247365" remote="131493807040000000" Dst="2" />
+<file name="boleta2.php" server="C:/xampp/htdocs/portaldelalumno/" local="131494941234523001" remote="131494941230000000" Dst="2" />
+<file name="boleta1.php" server="C:/xampp/htdocs/portaldelalumno/" local="131495622402589295" remote="131495622400000000" Dst="2" />
+</dwsync>
